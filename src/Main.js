@@ -1,15 +1,12 @@
-import React                 from 'react';
-import {Col, Container, Row} from 'react-bootstrap';
+import React                               from 'react';
+import {Button, Col, Container, Form, Row} from 'react-bootstrap';
+import SearchForm                          from './components/SearchForm';
 
 const Main = () => {
   return (
-    <div className="mt-3 pt-5">
+    <div className="mt-5 pt-5">
       <Container>
-        <Row>
-          <Col md={{ span: 10, offset: 1 }}>
-            Main app
-          </Col>
-        </Row>
+        <SearchForm/>
       </Container>
     </div>
   );
