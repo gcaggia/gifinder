@@ -6,7 +6,7 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="d-flex flex-column sticky-footer-wrapper">
       <Header/>
       <Main/>
       <Footer/>
