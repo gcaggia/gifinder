@@ -4,6 +4,12 @@ body, .sticky-footer-wrapper {
   min-height:100vh;
 }
 
+.text-fork-me {
+  position: relative;
+  top:6px;
+  left:-40px;
+}
+
 .navbar-footer {
   background-color: #4b6584;
 }
@@ -57,4 +63,12 @@ body, .sticky-footer-wrapper {
 
 .empty-result {
   display: none;
+}
+
+.footer-signature {
+  color: #fed330;
+}
+
+.footer-link {
+  color: #45aaf2;
 }

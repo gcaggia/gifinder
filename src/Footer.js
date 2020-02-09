@@ -6,8 +6,8 @@ const Footer = () => {
     <footer>
       <Navbar className="p-5 navbar-footer">
         <div className="text-white pl-5">
-          <span>Guillaume | </span>
-          <a href="http://codé.com/">codé.com</a>
+          <span className="footer-signature">Guillaume </span>  |
+          <a className="footer-link" href="http://codé.com/"> codé.com</a>
         </div>
       </Navbar>
     </footer>
