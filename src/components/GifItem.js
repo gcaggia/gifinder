@@ -1,10 +1,10 @@
 import React from 'react';
 import {Col} from 'react-bootstrap';
 
-const GifItem = () => {
+const GifItem = ({urlImage}) => {
   return (
     <Col md={3}>
-      <img src="https://via.placeholder.com/150"
+      <img src={urlImage}
            alt="#"
            className="card-img p-2"
       />
