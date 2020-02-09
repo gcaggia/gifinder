@@ -1,7 +1,7 @@
 import React                    from 'react';
 import {Button, Col, Form, Row} from 'react-bootstrap';
 
-const SearchForm = ({searchTerm, onChangeSearchTerm}) => {
+const SearchForm = ({searchTerm, onChangeSearchTerm, onSubmitSearch}) => {
   return (
     <Row>
       <Col md={{ span: 9, offset: 2 }}>
@@ -20,6 +20,7 @@ const SearchForm = ({searchTerm, onChangeSearchTerm}) => {
                 size="lg"
                 variant="primary"
                 type="submit"
+                onClick={(e) => onSubmitSearch(e)}
               >
                 Submit
               </Button>
