@@ -1,5 +1,5 @@
 import React                                           from 'react';
-import {Button, Col, Container, Form, Pagination, Row} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import SearchForm                                      from './components/SearchForm';
 import SearchResults                                   from './components/SearchResults';
 

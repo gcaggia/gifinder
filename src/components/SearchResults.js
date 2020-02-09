@@ -12,26 +12,23 @@ const SearchResults = ({gifResults, paginationNumber, onChangePagination}) => {
   };
 
   const onClickPage = useCallback((num) => {
+    if (num < 1 || num > 4 || num === paginationNumber) {
+      return
+    }
     scrollToTop();
-    if (num < 1 ) {
-      num = 1;
-    }
-    if (num > 4 ) {
-      num = 4;
-    }
     return onChangePagination(num);
-  }, [onChangePagination]);
+  }, [onChangePagination, scrollToTop, paginationNumber]);
 
   return (
     <div className={gifResults.length === 0 ? 'empty-result' : 'has-result'}>
       <Row className="mt-5 pt-4 pb-5">
         <Col md={12} className="text-left">
-          <h5>Results</h5>
+          <h5>Page {paginationNumber} | Results</h5>
         </Col>
         <Col md={12}>
           <Card className="p-2">
             <Row className="text-center">
-              { gifResults.slice((paginationNumber-1), (paginationNumber)*12)
+              { gifResults.slice((paginationNumber-1)*12, (paginationNumber)*12)
                   .map((gifResult, index) =>
                 <GifItem
                   key={index.toString()}

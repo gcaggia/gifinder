@@ -34,7 +34,7 @@ body, .sticky-footer-wrapper {
 .logo-icon {
   position: relative;
   top: -13px;
-  color: white;
+  color: white !important;
   background-color: #778ca3;
   /* margin: 2px; */
   padding: 8px;
