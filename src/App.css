@@ -1,9 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
 body, .sticky-footer-wrapper {
   min-height:100vh;
 }
 
 .flex-fill {
   flex:1 1 auto;
+}
+
+.logo-row {
+  margin-bottom: 10px;
+}
+
+.logo-col {
+  /*position: relative;*/
+  /*left: 35px;*/
+}
+
+.logo-icon {
+  position: relative;
+  top: -13px;
+  color: white;
+  background-color: #778ca3;
+  /* margin: 2px; */
+  padding: 8px;
+  border-radius: 7px;
+}
+
+.logo-text {
+  display: inline;
+  position: relative;
+  top: 8px;
+  left: 10px;
+  font-size: 75px;
+  letter-spacing: 3px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/*Color for letters logo*/
+.logo-letter-g  { color: #3867d6; font-weight: bold;}
+.logo-letter-i1 { color: #eb3b5a; font-weight: bold;}
+.logo-letter-f  { color: #f7b731; font-weight: bold;}
+.logo-letter-i2 { color: #778ca3;}
+.logo-letter-n  { color: #778ca3;}
+.logo-letter-d  { color: #778ca3;}
+.logo-letter-e  { color: #778ca3;}
+.logo-letter-r  { color: #778ca3;}
+
+.logo-col {
+  margin-bottom: 15px;
 }
 
 .empty-result {
