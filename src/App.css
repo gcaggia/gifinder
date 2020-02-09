@@ -4,6 +4,10 @@ body, .sticky-footer-wrapper {
   min-height:100vh;
 }
 
+.navbar-footer {
+  background-color: #4b6584;
+}
+
 .flex-fill {
   flex:1 1 auto;
 }
