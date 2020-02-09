@@ -11,7 +11,9 @@ const Header = () => {
             <a className="text-fork-me" href="https://github.com/gcaggia/gifinder">
               Fork me on Github
             </a>
-            <GithubCorner href="https://github.com/gcaggia/gifinder" />
+            <GithubCorner href="https://github.com/gcaggia/gifinder"
+                          bannerColor={'#4b6584'}
+            />
           </Navbar.Text>
         </Navbar.Collapse>
       </Navbar>
