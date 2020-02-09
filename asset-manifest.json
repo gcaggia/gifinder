@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/gifinder/static/css/main.1970ae25.chunk.css",
+    "main.js": "/gifinder/static/js/main.cf89a9cb.chunk.js",
+    "main.js.map": "/gifinder/static/js/main.cf89a9cb.chunk.js.map",
+    "runtime-main.js": "/gifinder/static/js/runtime-main.0803bdb6.js",
+    "runtime-main.js.map": "/gifinder/static/js/runtime-main.0803bdb6.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/gifinder/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.aa96037b.chunk.js": "/gifinder/static/js/2.aa96037b.chunk.js",
+    "static/js/2.aa96037b.chunk.js.map": "/gifinder/static/js/2.aa96037b.chunk.js.map",
+    "index.html": "/gifinder/index.html",
+    "precache-manifest.c8ae66c99bf49f8eb54cb9f4b868fb1e.js": "/gifinder/precache-manifest.c8ae66c99bf49f8eb54cb9f4b868fb1e.js",
+    "service-worker.js": "/gifinder/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/gifinder/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.1970ae25.chunk.css.map": "/gifinder/static/css/main.1970ae25.chunk.css.map",
+    "static/js/2.aa96037b.chunk.js.LICENSE.txt": "/gifinder/static/js/2.aa96037b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0803bdb6.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.aa96037b.chunk.js",
+    "static/css/main.1970ae25.chunk.css",
+    "static/js/main.cf89a9cb.chunk.js"
+  ]
+}
