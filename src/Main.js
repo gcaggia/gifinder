@@ -3,7 +3,15 @@ import {Button, Col, Container, Form, Pagination, Row} from 'react-bootstrap';
 import SearchForm                                      from './components/SearchForm';
 import SearchResults                                   from './components/SearchResults';
 
-const Main = ({searchTerm, searchResults, onChangeSearchTerm, onSubmitSearch}) => {
+const Main = (
+  {
+    searchTerm,
+    searchResults,
+    onChangeSearchTerm,
+    onSubmitSearch,
+    paginationNumber,
+    onChangePagination
+  }) => {
   return (
     <main className="flex-fill mt-5 pt-5">
       <Container className="main-container">
@@ -11,7 +19,11 @@ const Main = ({searchTerm, searchResults, onChangeSearchTerm, onSubmitSearch}) =
                     onChangeSearchTerm={onChangeSearchTerm}
                     onSubmitSearch={onSubmitSearch}
         />
-        <SearchResults gifResults={searchResults} className="mt-5"/>
+        <SearchResults gifResults={searchResults}
+                       paginationNumber={paginationNumber}
+                       onChangePagination={onChangePagination}
+                       className="mt-5"
+        />
       </Container>
     </main>
   );
