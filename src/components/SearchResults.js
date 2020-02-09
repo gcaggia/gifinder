@@ -1,6 +1,6 @@
-import React                          from 'react';
-import {Card, Col, Row} from 'react-bootstrap';
-import GifItem                        from './GifItem';
+import React                        from 'react';
+import {Card, Col, Pagination, Row} from 'react-bootstrap';
+import GifItem                      from './GifItem';
 
 const SearchResults = ({gifResults}) => {
   return (
@@ -23,6 +23,14 @@ const SearchResults = ({gifResults}) => {
           </Card>
         </Col>
       </Row>
+      <div className="pagination-result">
+        <Pagination className="justify-content-center">
+          <Pagination.Item>{1}</Pagination.Item>
+          <Pagination.Item>{2}</Pagination.Item>
+          <Pagination.Item>{3}</Pagination.Item>
+          <Pagination.Item>{4}</Pagination.Item>
+        </Pagination>
+      </div>
     </div>
   );
 };

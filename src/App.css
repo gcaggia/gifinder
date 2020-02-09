@@ -4,6 +4,10 @@ body, .sticky-footer-wrapper {
   min-height:100vh;
 }
 
+.main-container {
+  margin-bottom: 50px;
+}
+
 .text-fork-me {
   position: relative;
   top:6px;
@@ -72,3 +76,4 @@ body, .sticky-footer-wrapper {
 .footer-link {
   color: #45aaf2;
 }
+

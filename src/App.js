@@ -28,7 +28,7 @@ class App extends Component {
     e.preventDefault();
     console.log('handleSubmitSearch triggered! ');
     const key = 'zgfvh4Rh2mJ3C3HEaIsgkfkTiPC5AoMy';
-    fetch(`https://api.giphy.com/v1/gifs/search?api_key=${key}&q=${this.state.searchTerm}&limit=24&offset=0&rating=G&lang=en`)
+    fetch(`https://api.giphy.com/v1/gifs/search?api_key=${key}&q=${this.state.searchTerm}&limit=12&offset=0&rating=G&lang=en`)
       .then((response) => {
         return response.json();
       })
